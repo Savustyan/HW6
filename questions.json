@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "q": "What is your name?",
+            "answer": "Georgiy"
+        },
+        {
+            "q": "How old are you?",
+            "answer": "29"
+        },
+        {
+            "q": "Do you like python?",
+            "answer": "yes"
+        },
+        {
+            "q": "What is the most difficult topic for you?",
+            "answer": "Work with files"
+        },
+        {
+            "q": "Please write suggestions and wishes",
+            "answer": "all is ok"
+        }
+    ]
+}

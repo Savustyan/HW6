@@ -12,25 +12,18 @@ parse("iiisdoso")  ==>  [8, 64] <- это как пример
 """
 
 
-def string_math(string):
+def string_math(Some_String):
     number = 0
     result = []
-    n = 0
-    while n < len(string):
-        if string[n] == 'i':
+    for n in Some_String:
+        if n == 'i':
             number += 1
-            n += 1
-        elif string[n] == 'd':
+        elif n == 'd':
             number -= 1
-            n += 1
-        elif string[n] == 's':
+        elif n == 's':
             number = number ** 2
-            n += 1
-        elif string[n] == 'o':
+        elif n == 'o':
             result.append(number)
-            n += 1
-        else:
-            n += 1
     return result
 
 
